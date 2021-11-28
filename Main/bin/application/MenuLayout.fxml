@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox layoutX="61.0" layoutY="155.0" prefHeight="490.0" prefWidth="950.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0">
+         <children>
+            <HBox prefHeight="163.0" prefWidth="200.0">
+               <children>
+                  <TextFlow prefHeight="163.0" prefWidth="100.0" style="-fx-background-color: #C9BA9B;" textAlignment="CENTER">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="163.0" prefWidth="80.0" text="Coffee" textAlignment="CENTER">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </TextFlow>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/아메리카노.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="35.0" top="5.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="아메리카노 3000원 " />
+                        <Button fx:id="americano_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/카페라떼.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="35.0" top="6.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="카페라떼 5000원 " />
+                        <Button fx:id="cafelatte_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/바닐라라떼.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="35.0" top="7.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="바닐라라떼 5000원" />
+                        <Button fx:id="vanillalatte_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/카페모카.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" top="6.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="화이트모카 4500원" />
+                        <Button fx:id="whitemocha_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="163.0" prefWidth="200.0">
+               <children>
+                  <TextFlow prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #BDC2BB;" textAlignment="CENTER">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="163.0" prefWidth="80.0" text="Drink" textAlignment="CENTER">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </TextFlow>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/복숭아아이스티.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="복숭아 아이스티 2000원 " />
+                        <Button fx:id="peachicetea_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/자몽에이드.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="자몽에이드 4000원" />
+                        <Button fx:id="grapefruitade_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/딸기요거트.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="딸기요거트 4500원" />
+                        <Button fx:id="strawberryyogurt_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="163.0" prefWidth="200.0">
+               <children>
+                  <TextFlow prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D2D5B8;" textAlignment="CENTER">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="163.0" prefWidth="80.0" text="Cake" textAlignment="CENTER">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </TextFlow>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/치즈케이크.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="치즈케이크 5000원" />
+                        <Button fx:id="cheesecake_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/초코케이크.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="초코케이크 5000원" />
+                        <Button fx:id="chocolatecake_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Users/bana0/OneDrive/사진/프로젝트/딸기케이크.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="딸기케이크 6000원" />
+                        <Button fx:id="strawberrycake_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <TilePane layoutY="14.0" prefHeight="100.0" prefWidth="1080.0">
+         <children>
+            <Label prefHeight="99.0" prefWidth="980.0" style="-fx-background-color: #E8E7D2;" text="SolarLuna Cafe Menu">
+               <TilePane.margin>
+                  <Insets left="70.0" />
+               </TilePane.margin>
+               <font>
+                  <Font size="42.0" />
+               </font>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </Label>
+         </children>
+      </TilePane>
+      <Button fx:id="menuChoices_Button" alignment="CENTER" layoutX="744.0" layoutY="630.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="120.0" text="선택하기" textAlignment="CENTER" />
+      <Button fx:id="menuPaymenthistory_Button" alignment="CENTER" layoutX="890.0" layoutY="630.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="120.0" text="결제내역" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
