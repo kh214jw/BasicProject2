@@ -1,3 +1,7 @@
+#인터페이스의 ActionEvent의 코드를 담고 있음. (현재 아메리카노의 "추가하기" 버튼을 눌렀을 경우에 시스템 메세지로 "추가 되었습니다."라는 메세지를 출력하는 것을 구현함.)
+
+#다른 버튼도 눌렀을 때 구현 시킬 수 있도록 해야 함.
+
 package application;
 
 import java.net.URL;
@@ -29,9 +33,9 @@ public class Controller implements Initializable{
 			public void handle(ActionEvent arg0) {
 				// TODO Auto-generated method stub
 				Alert alert = new Alert(AlertType.INFORMATION);
-				alert.setTitle("���¸޼���");
-				alert.setContentText("�Ƹ޸�ī�� �ϳ��� �߰��Ǿ����ϴ�.");
-				alert.setHeaderText("�߰��� �޴�");
+				alert.setTitle("상태메세지");
+				alert.setContentText("아메리카노 하나가 추가되었습니다.");
+				alert.setHeaderText("추가된 메뉴");
 				americano_AddButton.setOnAction(event -> alert.show());
 				
 			}
