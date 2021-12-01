@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
    <children>
       <VBox layoutX="61.0" layoutY="155.0" prefHeight="490.0" prefWidth="950.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0">
          <children>
@@ -87,7 +87,7 @@
                               <Insets left="40.0" top="6.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="화이트모카 4500원" />
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="화이트모카 5000원" />
                         <Button fx:id="whitemocha_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
                            <VBox.margin>
                               <Insets left="65.0" />
@@ -118,7 +118,7 @@
                               <Insets left="40.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="복숭아 아이스티 2000원 " />
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="레몬에이드 4000원 " />
                         <Button fx:id="peachicetea_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
                            <VBox.margin>
                               <Insets left="65.0" />
@@ -154,7 +154,7 @@
                               <Insets left="40.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="딸기요거트 4500원" />
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="딸기요거트 6000원" />
                         <Button fx:id="strawberryyogurt_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
                            <VBox.margin>
                               <Insets left="65.0" />
@@ -185,7 +185,7 @@
                               <Insets left="40.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="치즈케이크 5000원" />
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="치즈케이크 6000원" />
                         <Button fx:id="cheesecake_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
                            <VBox.margin>
                               <Insets left="65.0" />
@@ -203,7 +203,7 @@
                               <Insets left="40.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="초코케이크 5000원" />
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="초코케이크 6000원" />
                         <Button fx:id="chocolatecake_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
                            <VBox.margin>
                               <Insets left="65.0" />
@@ -221,7 +221,7 @@
                               <Insets left="40.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="딸기케이크 6000원" />
+                        <Label alignment="CENTER" prefHeight="22.0" prefWidth="200.0" text="딸기케이크 7000원" />
                         <Button fx:id="strawberrycake_AddButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="추가하기">
                            <VBox.margin>
                               <Insets left="65.0" />
@@ -248,7 +248,6 @@
             </Label>
          </children>
       </TilePane>
-      <Button fx:id="menuChoices_Button" alignment="CENTER" layoutX="744.0" layoutY="630.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="120.0" text="선택하기" textAlignment="CENTER" />
-      <Button fx:id="menuPaymenthistory_Button" alignment="CENTER" layoutX="890.0" layoutY="630.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="120.0" text="결제내역" textAlignment="CENTER" />
+      <Button fx:id="menuShoppingBasket_Button" alignment="CENTER" layoutX="890.0" layoutY="630.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="120.0" text="장바구니" textAlignment="CENTER" />
    </children>
 </AnchorPane>

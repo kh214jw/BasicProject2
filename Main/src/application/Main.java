@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 
 
 public class Main extends Application {
@@ -17,8 +16,11 @@ public class Main extends Application {
 			root = loader.load();
 			Scene scene = new Scene(root);
 			
-			Controller controller = loader.getController();
+			//MenuController 를 불러오는 명령어
+			MenuController controller = loader.getController();
 			controller.setPmrimaryStage(primaryStage);
+			
+			
 			
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
